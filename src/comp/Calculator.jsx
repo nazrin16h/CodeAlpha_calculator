@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Lottie from 'lottie-react';
 import snowAnim from '../animation/Snow.json';
 
-function Calc() {
+function Calculator() {
     const [input, setInput] = useState('');
     const buttons = ['1', '2', '3', '/', '4', '5', '6', '*', '7', '8', '9', '-', '0', '.', '+', 'C', '='];
 
@@ -76,4 +76,4 @@ function Calc() {
     );
 }
 
-export default Calc;
+export default Calculator;

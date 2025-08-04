@@ -1,8 +1,10 @@
-import Calc from './comp/calc'
+import Calculator from './comp/Calculator'
 
 function App() {
   return (
-    <div><Calc/></div>
+    <div>
+      <Calculator/>
+    </div>
   )
 }
 
